@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTAPP_ConsoleEngine", "ACTAPP_ConsoleEngine\ACTAPP_ConsoleEngine.csproj", "{3F4EB38D-4841-4093-A187-24ABBA588860}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTAPP_Console_Engine_TestConsole", "ACTAPP_Console_Engine_TestConsole\ACTAPP_Console_Engine_TestConsole.csproj", "{D4D96182-E88D-4F22-921F-C20A36979178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3F4EB38D-4841-4093-A187-24ABBA588860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F4EB38D-4841-4093-A187-24ABBA588860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F4EB38D-4841-4093-A187-24ABBA588860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D96182-E88D-4F22-921F-C20A36979178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D96182-E88D-4F22-921F-C20A36979178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D96182-E88D-4F22-921F-C20A36979178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D96182-E88D-4F22-921F-C20A36979178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

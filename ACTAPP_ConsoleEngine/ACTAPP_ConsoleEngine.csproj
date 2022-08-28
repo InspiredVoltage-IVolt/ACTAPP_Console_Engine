@@ -1,10 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
+    <RootNamespace>ACT.Applications.ConsoleEngine</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>ACT_Applications_ConsoleEngine</PackageId>
+    <Title>Console Engine - Design Menus, Provides Console Functions</Title>
+    <Version>2.0.1</Version>
+    <Authors>Mark Alicz</Authors>
+    <Company>IVolt, llc</Company>
+    <Product>ACT Application ConsoleEngine</Product>
+    <Description>Console Engine - Design Menus, Provides Developer Console Functions making it quicker to develop and integrates with all ACT Products</Description>
+    <Copyright>1998-2022 Mark Alicz</Copyright>
+    <PackageProjectUrl>https://www.act-net.us/Applications/ConsoleEngine/</PackageProjectUrl>
+    <PackageOutputPath>D:\IVolt_Releases\_APPLICATIONS\ACTAPP_ConsoleEngine</PackageOutputPath>
   </PropertyGroup>
 
 </Project>

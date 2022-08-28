@@ -1,4 +1,4 @@
-﻿namespace ACTAPP_ConsoleEngine
+﻿namespace ACTAPP_Console_Engine_TestConsole
 {
     internal class Program
     {
