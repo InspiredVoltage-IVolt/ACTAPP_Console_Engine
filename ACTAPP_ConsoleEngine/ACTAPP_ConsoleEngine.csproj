@@ -19,4 +19,20 @@
     <PackageOutputPath>D:\IVolt_Releases\_APPLICATIONS\ACTAPP_ConsoleEngine</PackageOutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="C:\Users\MarkAlicz\.nuget\packages\act_core\2.1.5.4\contentFiles\any\net6.0\Assets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ACT_CORE" Version="2.1.5.4" />
+    <PackageReference Include="ACT_Enums" Version="2.1.5.9" />
+    <PackageReference Include="ACT_Extension_Library" Version="2.1.8.2" />
+    <PackageReference Include="ACT_Interfaces" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\" />
+    <Folder Include="Resources\Assets\" />
+  </ItemGroup>
+
 </Project>

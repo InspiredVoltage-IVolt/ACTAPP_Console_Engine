@@ -1,0 +1,1227 @@
+﻿{
+  "file_version": 1.3,
+  "optional_custom_name": "Default",
+  "installation_info": {
+    "install_path": "c:\\ACT\\Installations\\",
+    "application_install_path": "c:\\ACT\\Applications\\",
+    "license_key": "",
+    "order_id": "",
+    "order_date": "1/1/2022",
+    "permission_file_path": "c:\\ACT\\Permissions\\permissions.enc",
+    "installed_version": "1.2.14",
+    "installed_by": "mark@mark.com"
+  },
+  "authentication_mode": "act",
+  "config_purpose": "development",
+  "nuget_sources": [
+    {
+      "id": "NuGet",
+      "url": "https://api.nuget.org/v3/index.json",
+      "requires_apikey": false,
+      "web_management_url": "https://www.nuget.org/",
+      "login_source": "Microsoft"
+    },
+    {
+      "id": "ACT",
+      "url": "http://actnuget.homeunix.com:5555/v3/index.json",
+      "requires_apikey": true,
+      "web_management_url": "",
+      "login_source": ""
+    }
+  ],
+  "nuget_packages": [
+    {
+      "name": "sqlite",
+      "exact_version": "3.13.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Data.SQLite",
+      "exact_version": "1.0.113.7",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Diagnostics.StackTrace",
+      "exact_version": "4.3.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "EPPlus",
+      "exact_version": "5.5.4",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "FluentFTP",
+      "exact_version": "33.0.3",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "Microsoft.Net.Native.Compiler",
+      "exact_version": "2.2.10-rel-29722-00",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "Microsoft.Win32.Registry",
+      "exact_version": "5.0.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "Newtonsoft.Json",
+      "exact_version": "12.0.3",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "NLog",
+      "exact_version": "4.7.8",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "NLog.Schema",
+      "exact_version": "4.7.8",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "SSH.NET",
+      "exact_version": "2020.0.1",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Data.SqlClient",
+      "exact_version": "4.8.2",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Diagnostics.StackTrace",
+      "exact_version": "4.3.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Drawing.Common",
+      "exact_version": "5.0.2",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Drawing.Primitives",
+      "exact_version": "4.3.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Reflection",
+      "exact_version": "4.3.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    },
+    {
+      "name": "System.Security.Cryptography.ProtectedData",
+      "exact_version": "5.0.0",
+      "auto_version_upgrade": false,
+      "package_source_id": "NuGet"
+    }
+  ],
+  "included_dependancies": [
+    {
+      "name": "ACTPlugins",
+      "filename": "ACT_Plugins.dll"
+    },
+    {
+      "name": "EPPlus",
+      "filename": "EPPlus.dll"
+    },
+    {
+      "name": "FluentFTP",
+      "filename": "FluentFTP.dll"
+    },
+    {
+      "name": "Microsoft.CSharp",
+      "filename": "Microsoft.CSharp.dll"
+    },
+    {
+      "name": "Microsoft.Web.Administration",
+      "filename": "Microsoft.Web.Administration.dll"
+    },
+    {
+      "name": "Renci.SshNet",
+      "filename": "Renci.SshNet.dll"
+    },
+    {
+      "name": "RestSharp",
+      "filename": "RestSharp.dll"
+    },
+    {
+      "name": "SshNet.Security.Cryptography",
+      "filename": "SshNet.Security.Cryptography.dll"
+    },
+    {
+      "name": "System.Configuration",
+      "filename": "System.Configuration.dll"
+    },
+    {
+      "name": "System.Data.DataSetExtensions",
+      "filename": "System.Data.DataSetExtensions.dll"
+    },
+    {
+      "name": "System.Data",
+      "filename": "System.Data.dll"
+    },
+    {
+      "name": "System",
+      "filename": "System.dll"
+    },
+    {
+      "name": "System.Drawing.Common",
+      "filename": "System.Drawing.Common.dll"
+    },
+    {
+      "name": "System.Drawing",
+      "filename": "System.Drawing.dll"
+    },
+    {
+      "name": "System.IO.Compression",
+      "filename": "System.IO.Compression.dll"
+    },
+    {
+      "name": "System.Net.Http",
+      "filename": "System.Net.Http.dll"
+    },
+    {
+      "name": "System.Runtime.Serialization",
+      "filename": "System.Runtime.Serialization.dll"
+    },
+    {
+      "name": "System.Security",
+      "filename": "System.Security.dll"
+    },
+    {
+      "name": "System.ServiceModel",
+      "filename": "System.ServiceModel.dll"
+    },
+    {
+      "name": "System.Threading.Tasks",
+      "filename": "System.Threading.Tasks.dll"
+    },
+    {
+      "name": "System.Transactions",
+      "filename": "System.Transactions.dll"
+    },
+    {
+      "name": "System.Web",
+      "filename": "System.Web.dll"
+    },
+    {
+      "name": "System.Xml",
+      "filename": "System.Xml.dll"
+    },
+    {
+      "name": "System.Xml.Linq",
+      "filename": "System.Xml.Linq.dll"
+    }
+  ],
+  "act_interfaces": [
+    {
+      "id": "382A79D3-0179-4D87-8D89-ADB9D231C4D8",
+      "name": "I_DataAccess",
+      "full_class_name": "ACT.Core.Interfaces.DataAccess.I_DataAccess",
+      "type": "Core",
+      "is_core": true,
+      "date_added": "",
+      "plugins": [
+        {
+          "id": "asdasdAS",
+          "full_class_name": "ACT.Plugins.DataAccess.ACT_MSSQL",
+          "plugin_ID": "A82A79D3-3179-4D87-8D89-ADB9D231C4D8",
+          "default": true,
+          "date_added": "11/1/2020",
+          "usage_override": "ACTMSSQL"
+        }
+      ]
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Hashing.I_ACTHash",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Saveable",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Configuration.I_ACT_ConfigTemplate",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.TemplateEngine.I_TemplateDataSource",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_SimpleExecute",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Security.I_Security",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.Excel.I_Excel_Sheet",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Graphics.IEffect",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Serialization.I_JSON_Serializer<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Encoding.IEncoderRules",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_Universal_Data_Processor",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Hashing.I_ACT_SecureHash",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Compression.I_CompressedFileActions",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Public.I_DataStore",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Workflow.I_Workflow_Timer",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.I_Dashboard_Control<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Execute",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_View",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Serialization.I_Serializer<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Application.I_Installer",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DataExecutionInfo",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_Table",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Authentication.I_LoginResult",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.I_Core",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Development.I_Code_Logging",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Security.Licensing.I_License",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_Dataset",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Encryption.IEncryptionPacket",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Encoding.I_JsonObject",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Profile.I_User_Management",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Storage.I_ACT_Box",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.I_WebUserControl",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Workflow.I_Workflow_Trigger",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DataObject",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Security.Licensing.I_LicenseEngine",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Media.I_MediaServer",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.Excel.I_Excel_Workbook",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Configuration.I_ACT_ConfigData",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Test",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Tools.I_BackupTool",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Authentication.I_Simple_Security_Provider",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_MSSQL_CodeGenerationSettings",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_Column",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Authentication.I_UserInfo",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_DataColumnIdentifier",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Configuration.I_ACT_Configuration",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_Relationship",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.UserData.I_UserContact",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Configuration.I_ACT_APP_CONFIG_FILE_MANAGER",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_ResultExpanded",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Imaging.IImagingHelper",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.IIS.I_IISHit",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.UserData.I_UserAddress",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Validation.I_FileType_Validator<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_ML_DataSource",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_JSON_Data_Plugin<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_ErrorLoggable",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Data.I_ACTSqlProxy",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.I_WebHook_Action_Handler",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Result",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Database_ConnectionInfo",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Configuration.I_ConfigurationProject",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Compression.I_CompressedFile",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Serialization.I_CacheAble",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Authentication.I_SecurityProvider",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Storage.I_File",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Storage.I_Location",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_Scheduler_Plugin",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_Where_Statement",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Application.I_Application",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Random.I_Randomization",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Communication.I_Email_Event",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Configurable",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_CodeGenerator",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DbFunction",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Data.I_ACT_Get_Web_Object",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Communication.I_Emails",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_StoredProcedure_Parameter",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_TypeConverter",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Encoding.I_Serializer",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_Code_Generation_Settings",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Graphics.I_Graphics",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Cloud.ILoginPage",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_ExecuteWithParameters",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_DataType",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Storage.Caching.I_Caching",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Configuration.I_ConfigurationFile",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Communication.I_BatchManager",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_Generated_Code",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Configuration.I_ACT_ConfigPluginData",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.IO.I_FileType_Processor",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.TemplateEngine.I_ReplacementParser",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_ML_Component",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_Simple_Plugin",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_StoredProcedure",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.IIS.I_IISLogRecord",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Payment.I_PaymentGateway",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Graphics.I_TextureManager",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_CodeGeneration_UpdateEnums",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.IO.I_Exportable<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Application.I_ACT_APP_ENVIRONMENT_CONFIG_FILE",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.IACTProjects",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Text.I_PatternEngine",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DB_Table_Archive",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_ML_MainEngine",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Printer.I_NonStandardPrinter",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_Db_ObjectHierarchy",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Communication.I_Email_Handler<T>",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.DatabaseManagement.I_Database_Manager",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Security.Encryption.I_Encryption",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Web.I_ACT_Web_Security_Page",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DBObject",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Security.I_WebService_Authenticator",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.WebServices.Storage.I_Storage",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.AI.I_ML_ComponentResult",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_About",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.I_Plugin",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.IO.I_Saveable",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.History.I_History",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.ACTConsole.I_ConsoleItemClicked",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.I_MSSQL_Generator",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Serialization.I_CacheEngine",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.CodeGeneration.History.I_HistoryItem",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Common.IWebPlugin",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Encoding.I_Encoder",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Plugins.I_Plugin_Executor",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_QueryResult",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.Communication.I_Email_Message",
+      "type": "Core",
+      "plugins": []
+    },
+    {
+      "id": "2d43864f-d84e-4f6c-aa2e-ff0bb3d89587",
+      "full_class_name": "",
+      "name": "ACT.Core.Interfaces.DataAccess.I_DbFunctionParameter",
+      "type": "Core",
+      "plugins": []
+    }
+  ],
+  "plugins": [
+    {
+      "id": "A82A79D3-3179-4D87-8D89-ADB9D231C4D8",
+      "file_name": "ACTPlugins.dll",
+      "type": "Core",
+      "store_once": true,
+      "arguments": [
+        ""
+      ],
+      "checksum": "",
+      "license_key": "",
+      "order": 1,
+      "interface_support": [
+        {
+          "interface_id": "",
+          "full_class_name": ""
+        }
+      ]
+    }
+  ],
+  "basic_settings": [
+    {
+      "name": "Verbosity",
+      "value": "false",
+      "group_name": "System",
+      "encrypted": "",
+      "pointer": ""
+    },
+    {
+      "name": "Default_Error_Logging_Path",
+      "value": "c:\\act\\logging\\",
+      "group_name": "System",
+      "encrypted": "",
+      "pointer": ""
+    }
+  ],
+  "complex_settings": [
+    {
+      "name": "cs",
+      "group_name": "complexgroup",
+      "encrypted": "internal",
+      "values": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "name": "otcs",
+      "group_name": "complexgroup",
+      "encrypted": "UserBased_MarkAlicz",
+      "values": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "installed_applications": [
+    {
+      "id": "",
+      "name": "default",
+      "install_location": ""
+    }
+  ]
+}
