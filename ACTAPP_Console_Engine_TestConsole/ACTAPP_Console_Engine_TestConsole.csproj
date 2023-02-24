@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -13,15 +13,20 @@
 
 
   <ItemGroup>
-    <PackageReference Include="ACT_CORE" Version="2.1.5.4" />
-    <PackageReference Include="ACT_Enums" Version="2.1.5.9" />
-    <PackageReference Include="ACT_Extension_Library" Version="2.1.8.2" />
-    <PackageReference Include="ACT_Interfaces" Version="2.1.9" />
+    <PackageReference Include="ACT_Enums" Version="2.3.1" />
+    <PackageReference Include="ACT_Extension_Library" Version="2.3.1.1" />
+    <PackageReference Include="ACT_Interfaces" Version="2.3.1" />
   </ItemGroup>
 
 
   <ItemGroup>
     <Folder Include="Resources\Assets\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\ACT_Core\ACT_CORE\ACT_CORE_Solutions\ACT_CORE\ACT_CORE.csproj" />
+    <ProjectReference Include="..\ACTAPP_ConsoleEngine\ACTAPP_ConsoleEngine.csproj" />
   </ItemGroup>
 
 </Project>

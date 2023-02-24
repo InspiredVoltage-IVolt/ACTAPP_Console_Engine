@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <RootNamespace>ACT.Applications.ConsoleEngine</RootNamespace>
@@ -24,15 +24,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ACT_CORE" Version="2.1.5.4" />
-    <PackageReference Include="ACT_Enums" Version="2.1.5.9" />
-    <PackageReference Include="ACT_Extension_Library" Version="2.1.8.2" />
-    <PackageReference Include="ACT_Interfaces" Version="2.1.9" />
+    <PackageReference Include="ACT_Enums" Version="2.3.1" />
+    <PackageReference Include="ACT_Extension_Library" Version="2.3.1.1" />
+    <PackageReference Include="ACT_Interfaces" Version="2.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="obj\" />
     <Folder Include="Resources\Assets\" />
+    <Folder Include="Resources\LOGS\" />
+    <Folder Include="Resources\Temp\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\ACT_Core\ACT_CORE\ACT_CORE_Solutions\ACT_CORE\ACT_CORE.csproj" />
   </ItemGroup>
 
 </Project>
